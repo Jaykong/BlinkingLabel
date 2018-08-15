@@ -29,6 +29,7 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
 
   s.source_files = 'BlinkingLabel/Classes/**/*'
   
@@ -39,4 +40,5 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '4.0'
 end
